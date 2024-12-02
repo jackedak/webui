@@ -6106,6 +6106,9 @@ static int _webui_get_browser_args(_webui_window_t* win, size_t browser, char* b
         "--disable-component-update",
         "--allow-insecure-localhost",
         "--auto-accept-camera-and-microphone-capture",
+	"--disable-web-security", 
+	"--user-data-dir",
+	"--no-sandbox"
     };
 
     int c = 0;
