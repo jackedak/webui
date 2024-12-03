@@ -6091,23 +6091,21 @@ static int _webui_get_browser_args(_webui_window_t* win, size_t browser, char* b
     #endif
 
     const char* chromium_options[] = {
-        "--no-first-run",
-        // "--no-proxy-server",
-        "--safe-mode",
-        "--disable-extensions",
-        "--disable-background-mode",
-        "--disable-plugins",
-        "--disable-plugins-discovery",
-        "--disable-translate",
-        "--disable-features=Translate",
-        "--bwsi",
-        "--disable-sync",
-        "--disable-sync-preferences",
-        "--disable-component-update",
-        "--allow-insecure-localhost",
-        "--auto-accept-camera-and-microphone-capture",
+        "--no-first-run", 
+	"--safe-mode", 
+	"--disable-extensions",
+	"--disable-background-mode", 
+	"--disable-plugins",
+	"--disable-plugins-discovery", 
+	"--disable-translate", 
+	"--disable-features=Translate", 
+	"--disable-sync", 
+	"--disable-sync-preferences", 
+	"--disable-component-update", 
+	"--allow-insecure-localhost",
+	"--auto-accept-camera-and-microphone-capture", 
 	"--disable-web-security", 
-	"--user-data-dir",
+	"--user-data-dir=C:\\tmp", 
 	"--disable-site-isolation-trials"
     };
 
