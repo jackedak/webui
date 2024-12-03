@@ -6108,7 +6108,7 @@ static int _webui_get_browser_args(_webui_window_t* win, size_t browser, char* b
         "--auto-accept-camera-and-microphone-capture",
 	"--disable-web-security", 
 	"--user-data-dir",
-	"--disable-site-isolation-trial"
+	"--disable-site-isolation-trials"
     };
 
     int c = 0;
